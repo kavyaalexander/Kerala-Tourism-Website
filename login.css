@@ -1,0 +1,103 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: url(./photos/home\ caroc.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .img1 {
+        border-radius: 50%;
+        height: 100px;
+        overflow: hidden;
+        position: absolute;
+        top: calc(-100px/2);
+        left: calc(70% /2);
+    }
+    
+    h2 {
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+    }
+    
+    #name {
+        border: none;
+        border-bottom: 1px solid#fff;
+        box-shadow: 5px 5px;
+        width: 300px;
+        border: none;
+        border-radius: 50px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    #psw {
+        border: none;
+        border-bottom: 1px solid#fff;
+        border-radius: 10%;
+        box-shadow: 5px 5px;
+        width: 300px;
+        border: none;
+        border-radius: 50px;
+        outline: 0;
+        padding: 7px;
+    }
+    
+    .register {
+        /* background-color: rgba(0, 0, 0, 0.6); */
+        position: absolute;
+        top: 56%;
+        left: 55%;
+        padding: 80px 40px;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        height: 500px;
+        width: 420px;
+        color: rgb(240, 232, 232);
+        border-radius: 50px;
+        animation-name: key;
+        animation-duration: 11s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes key {
+        from {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        to {
+            background-color: rgb(153, 39, 4);
+        }
+        50% {
+            color: rgb(73, 212, 18);
+        }
+    }
+    
+    #butn {
+        margin-left: 2cm;
+        border-radius: 50px;
+    }
+    
+    #login {
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .label {
+        color: rgb(230, 234, 240);
+        font-family: sans-serif;
+        font-size: 18px;
+        font-style: italic;
+    }
+    
+    #sub {
+        background-color: whitesmoke;
+        color: rgb(211, 112, 19);
+    }
+    
+    li a {
+        float: left;
+        padding: 10px;
+        color: white;
+    }

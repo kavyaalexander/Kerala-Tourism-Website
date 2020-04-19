@@ -1,0 +1,59 @@
+            li a {
+                float: left;
+                padding: 10px;
+                color: whitesmoke;
+            }
+            
+            h1 {
+                color: rgb(219, 113, 13);
+                text-shadow: 1px 1px 4px rgb(3, 80, 13);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+                animation-name: key;
+                animation-duration: 12s;
+                animation-iteration-count: infinite;
+                text-align: center;
+            }
+            
+            @keyframes key {
+                50% {
+                    color: rgb(206, 13, 109);
+                }
+            }
+            
+            p {
+                margin-left: 1cm;
+                margin-right: 1cm;
+                text-align: justify;
+            }
+            
+            h2 {
+                color: rgb(163, 14, 9);
+                text-shadow: 1px 1px 4px rgb(57, 15, 155);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+                animation-name: key1;
+                animation-duration: 12s;
+                animation-iteration-count: infinite;
+                text-align: center;
+            }
+            
+            @keyframes key1 {
+                50% {
+                    color: rgb(29, 236, 64);
+                }
+            }
+            
+            .card {
+                margin-left: 1cm;
+                margin-right: 1cm;
+            }
+            
+            #contact1 {
+                margin-left: 2cm;
+            }
+            
+            .footer {
+                background-color: rgb(0, 0, 0, 4);
+                color: rgb(55, 123, 201);
+            }

@@ -1,0 +1,57 @@
+body {
+    background-image: url(./photos/kerala\ tourwallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li a {
+    float: left;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+h1 {
+    color: rgb(219, 113, 13);
+    text-shadow: 1px 1px 4px rgb(3, 80, 13);
+    margin-left: 1cm;
+    margin-right: 1cm;
+    height: 1.5cm;
+    padding: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    animation-name: key;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes key {
+    from {
+        background-color: rgb(86, 230, 186);
+    }
+    to {
+        background-color: rgb(55, 221, 33);
+    }
+    50% {
+        color: rgb(206, 13, 109);
+    }
+}
+
+.card {
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgb(233, 236, 29), -1em 0 .4em rgb(152, 250, 132);
+    margin: 1cm;
+}
+
+.card-body {
+    background-color: rgb(147, 247, 172);
+}
+
+#contact1 {
+    margin-left: 2cm;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0, 4);
+    color: rgb(55, 123, 201);
+}

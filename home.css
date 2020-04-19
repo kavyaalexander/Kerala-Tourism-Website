@@ -1,0 +1,140 @@
+li a {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h5 {
+    font-style: italic;
+}
+
+.box {
+    position: relative;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    transition: 0.5s;
+}
+
+.box:hover {
+    height: 400 px;
+}
+
+.box.imgbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.img1 {
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.img1:hover {
+    opacity: 1;
+}
+
+.box:before {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 228, 228, 0.13);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.box:after {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -2;
+    filter: blur(20px);
+    transition: 0.5s ease-in-out;
+}
+
+.box:before,
+.box:after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.content {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 100px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-style: italic;
+    margin-left: 3cm;
+}
+
+.bottom {
+    position: absolute;
+    bottom: -3.5cm;
+    left: 12cm;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    border-color: black;
+    border-radius: 20px;
+}
+
+.card-body {
+    background-color: rgb(147, 247, 172);
+}
+
+#contact1 {
+    margin-left: 2cm;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0, 4);
+    color: rgb(55, 123, 201);
+}

@@ -1,0 +1,42 @@
+    body {
+        background-image: url(./photos/contact\ background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    li a {
+        float: left;
+        padding: 10px;
+        color: whitesmoke;
+    }
+    
+    h3 {
+        background-color: rgb(163, 138, 15);
+        font-weight: bold;
+        color: rgb(172, 69, 10);
+        text-align: center;
+    }
+    
+    h4 {
+        margin-left: 2cm;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(230, 94, 16);
+        font-size: smaller;
+    }
+    
+    h6 {
+        margin-left: 2cm;
+    }
+    
+    p {
+        margin-left: 2cm;
+    }
+    
+    #contact1 {
+        margin-left: 2cm;
+    }
+    
+    .footer {
+        background-color: rgb(0, 0, 0, 4);
+        color: rgb(55, 123, 201);
+    }
